@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DevBurger - Contato</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <h1>Entre em Contato</h1>
+
+    <form action="/contato" method="post">
+        <label for="nome">Seu nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Seu e-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea><br><br>
+
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+
+    <br>
+    <a href="/">Voltar à página inicial</a>
+</body>
+
+</html>

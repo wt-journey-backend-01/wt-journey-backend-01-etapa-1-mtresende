@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DevBurger - Página Inicial</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <h1>Bem-vindo à DevBurger</h1>
+
+    <h2>Sugira um novo lanche</h2>
+    <form action="/sugestao" method="get">
+        <label for="nome">Seu nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="ingredientes">Ingredientes sugeridos:</label>
+        <input type="text" id="ingredientes" name="ingredientes" required><br><br>
+
+        <button type="submit">Enviar Sugestão</button>
+    </form>
+
+    <br><br>
+
+    <a href="/contato">Fale conosco</a> |
+    <a href="/api/lanches">Ver cardápio (JSON)</a>
+</body>
+
+</html>
